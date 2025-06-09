@@ -11,24 +11,24 @@ export const TeamSection: React.FC = () => {
       name: 'Shingiro Christian',
       role: 'Managing Director, CPA',
       description: 'Well-rounded leader with technical competencies in audit, accounting, finance, tax advisory, data analytics, and sales.',
-      image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=400&fit=crop&crop=face',
+      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
     },
     {
       name: 'Ntabana Kevin Joshua',
       role: 'Admin & PR',
       description: 'Integral, passionate, and committed team player, skilled in administration and public relations.',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face',
+      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
     },
     {
       name: 'Tusifu Edison',
       role: 'Chief Technical Officer (CTO)',
       description: 'Well-versed in technology and writing code to create reliable and user-friendly systems.',
-      image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=face',
+      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
     },
   ];
 
   return (
-    <section id="team" className="py-16 md:py-24 bg-gradient-to-br from-gray-50 to-green-50">
+    <section id="team" className="py-16 md:py-24 bg-lens-primary-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

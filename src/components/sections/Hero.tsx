@@ -44,7 +44,7 @@ export const Hero: React.FC = () => {
             className="space-y-6"
           >
             <div className="space-y-4">
-              <p className="text-gray-600 text-sm uppercase tracking-wider font-futura">
+              <p className="text-gray-600 text-sm uppercase tracking-wider font-libre">
                 LENS INC. LTD REVOLUTIONIZES BOOKKEEPING FOR INDIVIDUALS AND SMES USING INNOVATIVE DIGITAL SOLUTIONS. WE HELP FARMERS AND BUSINESSES ACHIEVE FINANCIAL ACCURACY.
               </p>
               <Button 

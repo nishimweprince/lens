@@ -2,23 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Futura:wght@300;400;500;700;900&display=swap');
 @import "tailwindcss";
 
-@layer base {
+
+  @layer base {
   html {
     scroll-behavior: smooth;
   }
   
   body {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif !important;
     background: #ffffff;
-    color: #171717;
+    color: #1F628E;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Libre Baskerville', serif !important;
   }
   
   .font-secondary {
-    font-family: 'Futura', sans-serif;
+    font-family: 'Futura', serif;
   }
 }
 

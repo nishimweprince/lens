@@ -21,6 +21,7 @@ module.exports = {
       fontFamily: {
         'libre': ['Libre Baskerville', 'serif'],
         'futura': ['Futura', 'sans-serif'],
+        serif: ['Libre Baskerville', 'serif'],
       },
       animation: {
         marquee: 'marquee 20s linear infinite',
