@@ -3,6 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Heading } from '../ui/Heading';
+import Image from 'next/image';
 
 export const TeamSection: React.FC = () => {
   const founders = [
@@ -58,10 +59,12 @@ export const TeamSection: React.FC = () => {
               className="text-center group"
             >
               <div className="relative mb-6 overflow-hidden rounded-2xl">
-                <img
+                <Image
                   src={founder.image}
                   alt={founder.name}
                   className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-105"
+                  width={400}
+                  height={400}
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-green-900/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>

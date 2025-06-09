@@ -2,6 +2,8 @@
 
 import React from 'react';
 import { Button } from '../ui/Button';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export const Header: React.FC = () => {
   const scrollToSection = (sectionId: string) => {
@@ -16,9 +18,14 @@ export const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex items-center">
-            <div className="text-xl md:text-2xl font-bold text-black">
-              Lens
-            </div>
+            <Link href="/" className="text-xl md:text-2xl font-bold text-black">
+              <Image
+                src="https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx"
+                alt="Lens"
+                width={60}
+                height={60}
+              />
+            </Link>
           </div>
           
           <nav className="hidden md:flex items-center space-x-8">
@@ -47,7 +54,7 @@ export const Header: React.FC = () => {
               Book a call
             </Button>
             <Button variant="primary" size="sm">
-              Let's connect
+              Let&apos;s connect
             </Button>
           </div>
         </div>
