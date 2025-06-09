@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Futura:wght@300;400;500;700;900&display=swap');
+@import "tailwindcss";
+
+
+  @layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Libre Baskerville', serif !important;
+    background: #ffffff;
+    color: #1F628E;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Libre Baskerville', serif !important;
+  }
+  
+  .font-secondary {
+    font-family: 'Futura', serif;
+  }
+}
+
+@layer utilities {
+  .animate-marquee {
+    animation: marquee 20s linear infinite;
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+}
