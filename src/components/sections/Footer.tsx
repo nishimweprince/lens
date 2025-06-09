@@ -53,8 +53,8 @@ export const Footer: React.FC = () => {
         <div className="mt-12 pt-8 border-t border-gray-200">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-6">
-              <div className="bg-black rounded-full px-4 py-2">
-                <span className="text-white text-sm font-medium">Home</span>
+              <div className="bg-lens-primary rounded-full px-4 py-2">
+                <span className="text-white text-sm font-medium font-futura">Home</span>
               </div>
               <a href="#products" className="text-gray-600 hover:text-black transition-colors text-sm">Products</a>
               <a href="#services" className="text-gray-600 hover:text-black transition-colors text-sm">Services</a>
@@ -62,7 +62,7 @@ export const Footer: React.FC = () => {
             </div>
             
             <div className="flex items-center space-x-4">
-              <button className="w-10 h-10 bg-black rounded-full flex items-center justify-center text-white hover:bg-gray-800 transition-colors">
+              <button className="w-10 h-10 bg-lens-primary rounded-full flex items-center justify-center text-white hover:bg-lens-primary-600 transition-colors">
                 ↑
               </button>
             </div>

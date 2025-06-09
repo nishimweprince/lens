@@ -10,6 +10,17 @@ module.exports = {
       colors: {
         background: 'var(--background)',
         foreground: 'var(--foreground)',
+        'lens-primary': '#1F628E',
+        'lens-secondary': '#E4E2DD',
+        'lens-primary-50': '#EBF4F8',
+        'lens-primary-100': '#D7E9F1',
+        'lens-primary-500': '#1F628E',
+        'lens-primary-600': '#1B5680',
+        'lens-primary-700': '#174A72',
+      },
+      fontFamily: {
+        'libre': ['Libre Baskerville', 'serif'],
+        'futura': ['Futura', 'sans-serif'],
       },
       animation: {
         marquee: 'marquee 20s linear infinite',

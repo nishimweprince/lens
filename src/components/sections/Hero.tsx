@@ -28,11 +28,11 @@ export const Hero: React.FC = () => {
                 Record Every
               </Heading>
               <div className="flex items-center space-x-4">
-                <div className="text-green-500 text-2xl md:text-4xl lg:text-6xl">→</div>
+                <div className="text-lens-primary text-2xl md:text-4xl lg:text-6xl">→</div>
                 <Heading level={1} className="text-black">
                   Penny
                 </Heading>
-                <div className="text-green-600 text-2xl md:text-4xl lg:text-6xl">*</div>
+                <div className="text-lens-primary text-2xl md:text-4xl lg:text-6xl">*</div>
               </div>
             </div>
           </motion.div>
@@ -44,7 +44,7 @@ export const Hero: React.FC = () => {
             className="space-y-6"
           >
             <div className="space-y-4">
-              <p className="text-gray-600 text-sm uppercase tracking-wider">
+              <p className="text-gray-600 text-sm uppercase tracking-wider font-futura">
                 LENS INC. LTD REVOLUTIONIZES BOOKKEEPING FOR INDIVIDUALS AND SMES USING INNOVATIVE DIGITAL SOLUTIONS. WE HELP FARMERS AND BUSINESSES ACHIEVE FINANCIAL ACCURACY.
               </p>
               <Button 

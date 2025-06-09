@@ -23,7 +23,7 @@ export const ServicesDetail: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="text-sm text-green-600 uppercase tracking-wider font-semibold mb-4">
+          <div className="text-sm text-lens-primary uppercase tracking-wider font-semibold mb-4 font-futura">
             / OUR PRODUCTS /
           </div>
           <Heading level={2} className="text-black mb-6">

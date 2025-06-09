@@ -53,7 +53,7 @@ export const NyibutsaSection: React.FC = () => {
             className="space-y-8 order-1 lg:order-2"
           >
             <div className="space-y-6">
-              <div className="text-sm text-blue-600 uppercase tracking-wider font-semibold">
+              <div className="text-sm text-blue-600 uppercase tracking-wider font-semibold font-futura">
                 / NYIBUTSA APP /
               </div>
               <Heading level={2} className="text-black">

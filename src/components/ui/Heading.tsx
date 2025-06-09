@@ -7,7 +7,7 @@ interface HeadingProps {
 }
 
 export const Heading: React.FC<HeadingProps> = ({ level, children, className = '' }) => {
-  const baseClasses = 'font-bold tracking-tight';
+  const baseClasses = 'font-libre font-bold tracking-tight';
   
   const levelClasses = {
     1: 'text-4xl md:text-6xl lg:text-8xl',

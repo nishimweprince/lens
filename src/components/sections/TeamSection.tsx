@@ -37,7 +37,7 @@ export const TeamSection: React.FC = () => {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <div className="text-sm text-green-600 uppercase tracking-wider font-semibold mb-4">
+          <div className="text-sm text-lens-primary uppercase tracking-wider font-semibold mb-4 font-futura">
             / FOUNDING MEMBERS /
           </div>
           <Heading level={2} className="text-black mb-6">
@@ -70,7 +70,7 @@ export const TeamSection: React.FC = () => {
               </div>
               <div className="space-y-3">
                 <h3 className="text-xl font-semibold text-black">{founder.name}</h3>
-                <p className="text-green-600 font-medium">{founder.role}</p>
+                <p className="text-lens-primary font-medium">{founder.role}</p>
                 <p className="text-gray-600 text-sm leading-relaxed">{founder.description}</p>
               </div>
             </motion.div>

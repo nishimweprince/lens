@@ -17,12 +17,12 @@ export const Button: React.FC<ButtonProps> = ({
   className = '',
   type = 'button',
 }) => {
-  const baseClasses = 'font-medium rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
+  const baseClasses = 'font-futura font-medium rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
   
   const variantClasses = {
-    primary: 'bg-black text-white hover:bg-gray-800 focus:ring-gray-500',
-    secondary: 'bg-gray-100 text-gray-900 hover:bg-gray-200 focus:ring-gray-500',
-    outline: 'border border-gray-300 text-gray-700 hover:bg-gray-50 focus:ring-gray-500',
+    primary: 'bg-lens-primary text-white hover:bg-lens-primary-600 focus:ring-lens-primary',
+    secondary: 'bg-lens-secondary text-black hover:bg-gray-200 focus:ring-lens-secondary',
+    outline: 'border-2 border-lens-primary text-lens-primary hover:bg-lens-primary hover:text-white focus:ring-lens-primary',
   };
   
   const sizeClasses = {

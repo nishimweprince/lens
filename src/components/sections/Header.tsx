@@ -31,19 +31,19 @@ export const Header: React.FC = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('products')}
-              className="text-gray-700 hover:text-black transition-colors"
+              className="text-gray-700 hover:text-lens-primary transition-colors font-futura"
             >
               Products
             </button>
             <button 
               onClick={() => scrollToSection('services')}
-              className="text-gray-700 hover:text-black transition-colors"
+              className="text-gray-700 hover:text-lens-primary transition-colors font-futura"
             >
               Services
             </button>
             <button 
               onClick={() => scrollToSection('team')}
-              className="text-gray-700 hover:text-black transition-colors"
+              className="text-gray-700 hover:text-lens-primary transition-colors font-futura"
             >
               Team
             </button>

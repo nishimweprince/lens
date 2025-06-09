@@ -26,7 +26,7 @@ export const UmuhinziSection: React.FC = () => {
             className="space-y-8"
           >
             <div className="space-y-6">
-              <div className="text-sm text-green-600 uppercase tracking-wider font-semibold">
+              <div className="text-sm text-green-600 uppercase tracking-wider font-semibold font-futura">
                 / UMUHINZI PLATFORM /
               </div>
               <Heading level={2} className="text-black">

@@ -26,7 +26,7 @@ export const WarehouseSection: React.FC = () => {
             className="space-y-8"
           >
             <div className="space-y-6">
-              <div className="text-sm text-amber-600 uppercase tracking-wider font-semibold">
+              <div className="text-sm text-amber-600 uppercase tracking-wider font-semibold font-futura">
                 / WAREHOUSES & FOOD SUPPLY /
               </div>
               <Heading level={2} className="text-black">

@@ -16,7 +16,7 @@ export const ProcessSection: React.FC = () => {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <div className="text-sm text-green-600 uppercase tracking-wider font-semibold">
+            <div className="text-sm text-lens-primary uppercase tracking-wider font-semibold font-futura">
               / OUR MISSION /
             </div>
             <Heading level={2} className="text-black">
