@@ -4,6 +4,9 @@ import { ServicesMarquee } from '@/components/sections/ServicesMarquee';
 import { IllustrationSection } from '@/components/sections/IllustrationSection';
 import { ProcessSection } from '@/components/sections/ProcessSection';
 import { ServicesDetail } from '@/components/sections/ServicesDetail';
+import { UmuhinziSection } from '@/components/sections/UmuhinziSection';
+import { NyibutsaSection } from '@/components/sections/NyibutsaSection';
+import { WarehouseSection } from '@/components/sections/WarehouseSection';
 import { TeamSection } from '@/components/sections/TeamSection';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { Footer } from '@/components/sections/Footer';
@@ -18,6 +21,9 @@ export default function Home() {
         <IllustrationSection />
         <ProcessSection />
         <ServicesDetail />
+        <UmuhinziSection />
+        <NyibutsaSection />
+        <WarehouseSection />
         <TeamSection />
         <ContactSection />
       </main>

@@ -35,7 +35,7 @@ export const ContactSection: React.FC = () => {
             className="text-center mb-12"
           >
             <p className="text-gray-300 text-lg mb-8">
-              We are providing consultations, for free. Get advice on customer activation, onboarding design, reducing product complexity, or growth experiments.
+              We provide free consultations on financial management, bookkeeping solutions, and digital transformation for your business. Get expert advice on improving your financial accuracy and data management.
             </p>
           </motion.div>
 
@@ -52,8 +52,8 @@ export const ContactSection: React.FC = () => {
                   CONTACT US
                 </h3>
                 <div className="space-y-2">
-                  <p className="text-white">hello@uwwa.co</p>
-                  <p className="text-white">+48 571 044 670</p>
+                  <p className="text-white">info@lens.rw</p>
+                  <p className="text-white">+250 788 123 456</p>
                 </div>
               </div>
             </motion.div>

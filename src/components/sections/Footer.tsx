@@ -8,9 +8,9 @@ export const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <div className="text-xl font-bold text-black">UWWA</div>
+            <div className="text-xl font-bold text-black">Lens</div>
             <p className="text-gray-600 text-sm">
-              © 2023 All rights reserved. All wrongs reversed.
+              © 2024 Lens Inc. Ltd. All rights reserved.
             </p>
           </div>
           
@@ -18,9 +18,9 @@ export const Footer: React.FC = () => {
             <h4 className="font-medium text-black">Navigation</h4>
             <ul className="space-y-2">
               <li><a href="#home" className="text-gray-600 hover:text-black transition-colors text-sm">Home</a></li>
+              <li><a href="#products" className="text-gray-600 hover:text-black transition-colors text-sm">Products</a></li>
               <li><a href="#services" className="text-gray-600 hover:text-black transition-colors text-sm">Services</a></li>
-              <li><a href="#process" className="text-gray-600 hover:text-black transition-colors text-sm">Process</a></li>
-              <li><a href="#cases" className="text-gray-600 hover:text-black transition-colors text-sm">Case studies</a></li>
+              <li><a href="#team" className="text-gray-600 hover:text-black transition-colors text-sm">Team</a></li>
             </ul>
           </div>
           
@@ -56,9 +56,9 @@ export const Footer: React.FC = () => {
               <div className="bg-black rounded-full px-4 py-2">
                 <span className="text-white text-sm font-medium">Home</span>
               </div>
+              <a href="#products" className="text-gray-600 hover:text-black transition-colors text-sm">Products</a>
               <a href="#services" className="text-gray-600 hover:text-black transition-colors text-sm">Services</a>
-              <a href="#process" className="text-gray-600 hover:text-black transition-colors text-sm">Process</a>
-              <a href="#cases" className="text-gray-600 hover:text-black transition-colors text-sm">Cases</a>
+              <a href="#team" className="text-gray-600 hover:text-black transition-colors text-sm">Team</a>
             </div>
             
             <div className="flex items-center space-x-4">
