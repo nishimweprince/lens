@@ -53,7 +53,7 @@ export const ContactSection: React.FC = () => {
                 </h3>
                 <div className="space-y-2">
                   <p className="text-white">info@lens.rw</p>
-                  <p className="text-white">+250 788 123 456</p>
+                  <p className="text-white">+250 788 552 790</p>
                 </div>
               </div>
             </motion.div>

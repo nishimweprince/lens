@@ -11,19 +11,19 @@ export const TeamSection: React.FC = () => {
       name: 'Shingiro Christian',
       role: 'Managing Director, CPA',
       description: 'Well-rounded leader with technical competencies in audit, accounting, finance, tax advisory, data analytics, and sales.',
-      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
+      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6',
     },
     {
       name: 'Ntabana Kevin Joshua',
       role: 'Admin & PR',
       description: 'Integral, passionate, and committed team player, skilled in administration and public relations.',
-      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
+      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6',
     },
     {
       name: 'Tusifu Edison',
       role: 'Chief Technical Officer (CTO)',
       description: 'Well-versed in technology and writing code to create reliable and user-friendly systems.',
-      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
+      image: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6',
     },
   ];
 

@@ -20,10 +20,10 @@ export const Header: React.FC = () => {
           <div className="flex items-center">
             <Link href="/" className="text-xl md:text-2xl font-bold text-black">
               <Image
-                src="https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx"
+                src="https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6"
                 alt="Lens"
-                width={60}
-                height={60}
+                width={100}
+                height={100}
               />
             </Link>
           </div>

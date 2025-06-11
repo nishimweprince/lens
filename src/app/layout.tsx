@@ -36,8 +36,8 @@ export const metadata: Metadata = {
     telephone: false,
   },
   icons: {
-    icon: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
-    apple: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
+    icon: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6',
+    apple: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6',
   },
   openGraph: {
     type: 'website',
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     title: 'Lens Inc. Ltd | Financial Solutions for Agribusiness',
     description: 'Revolutionizing bookkeeping for individuals and SMEs using innovative digital solutions. Helping farmers and businesses achieve financial accuracy.',
     images: [{
-      url: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx',
+      url: 'https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6',
       width: 1200,
       height: 630,
       alt: 'Lens Inc. Ltd Logo',
@@ -57,7 +57,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Lens Inc. Ltd | Financial Solutions for Agribusiness',
     description: 'Revolutionizing bookkeeping for individuals and SMEs using innovative digital solutions.',
-    images: ['https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx'],
+    images: ['https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6'],
     creator: '@lensinc',
   },
   robots: {
@@ -72,7 +72,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    google: 'your-google-site-verification',
+    google: 'sDfAQlinTKJTrBVMXTdOU8Ugu2RO3jexpWETdvqAFws',
   },
 };
 
@@ -84,7 +84,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <link rel="canonical" href="https://lens.rw" />
-      <link rel="icon" type='image/png' href="https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/z0tujfyzbcypzehf1wpx" />
+      <link rel="icon" type='image/png' href="https://res.cloudinary.com/nishimweprince/image/upload/f_auto,q_auto/v1/lens/lens/cyxa57cp9qnf43ijgfh6" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${libreBaskerville.variable} antialiased font-libre`}
       >
