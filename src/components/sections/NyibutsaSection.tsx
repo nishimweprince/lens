@@ -84,6 +84,16 @@ export const NyibutsaSection: React.FC = () => {
             </div>
           </motion.div>
         </div>
+        <div className="flex justify-center mt-10">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.tusifuedison.nyibutsa&hl=en"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block px-8 py-4 text-lg font-bold rounded-full shadow-lg text-white transition-all duration-200 focus:outline-none focus:ring-4 bg-blue-600 hover:bg-blue-800"
+          >
+            Get Nyibutsa on Google Play
+          </a>
+        </div>
       </div>
     </section>
   );

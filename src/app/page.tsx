@@ -10,6 +10,7 @@ import { WarehouseSection } from '@/components/sections/WarehouseSection';
 import { TeamSection } from '@/components/sections/TeamSection';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { Footer } from '@/components/sections/Footer';
+import { LensMusicSection } from '@/components/sections/LensMusicSection';
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <ProcessSection />
         <ServicesDetail />
         <UmuhinziSection />
+        <LensMusicSection />
         <NyibutsaSection />
         <WarehouseSection />
         <TeamSection />
