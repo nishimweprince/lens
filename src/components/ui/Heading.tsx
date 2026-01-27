@@ -7,19 +7,19 @@ interface HeadingProps {
 }
 
 export const Heading: React.FC<HeadingProps> = ({ level, children, className = '' }) => {
-  const baseClasses = 'font-libre font-bold tracking-tight';
-  
+  const baseClasses = 'font-display font-normal text-slate-900 leading-[1.1]';
+
   const levelClasses = {
-    1: 'text-4xl md:text-6xl lg:text-8xl',
-    2: 'text-3xl md:text-5xl lg:text-6xl',
-    3: 'text-2xl md:text-4xl lg:text-5xl',
-    4: 'text-xl md:text-3xl lg:text-4xl',
-    5: 'text-lg md:text-2xl lg:text-3xl',
-    6: 'text-base md:text-xl lg:text-2xl',
+    1: 'text-5xl md:text-7xl lg:text-8xl tracking-tight',
+    2: 'text-4xl md:text-5xl lg:text-6xl tracking-tight',
+    3: 'text-3xl md:text-4xl lg:text-5xl tracking-tight',
+    4: 'text-2xl md:text-3xl lg:text-4xl tracking-tight',
+    5: 'text-xl md:text-2xl lg:text-3xl tracking-tight',
+    6: 'text-lg md:text-xl lg:text-2xl tracking-tight',
   };
-  
+
   const combinedClasses = `${baseClasses} ${levelClasses[level]} ${className}`;
-  
+
   switch (level) {
     case 1:
       return <h1 className={combinedClasses}>{children}</h1>;

@@ -27,7 +27,7 @@ export const Input: React.FC<InputProps> = ({
       onChange={onChange}
       required={required}
       name={name}
-      className={`w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all duration-200 ${className}`}
+      className={`w-full px-4 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-slate-900 focus:border-transparent transition-all duration-300 font-body text-sm text-slate-900 placeholder:text-slate-400 ${className}`}
     />
   );
 };
@@ -59,7 +59,7 @@ export const Textarea: React.FC<TextareaProps> = ({
       required={required}
       name={name}
       rows={rows}
-      className={`w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-gray-900 focus:border-transparent transition-all duration-200 resize-vertical ${className}`}
+      className={`w-full px-4 py-3 bg-white border border-slate-200 rounded-xl focus:ring-2 focus:ring-slate-900 focus:border-transparent transition-all duration-300 font-body text-sm text-slate-900 placeholder:text-slate-400 resize-vertical ${className}`}
     />
   );
 };

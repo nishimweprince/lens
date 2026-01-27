@@ -11,23 +11,27 @@ import { TeamSection } from '@/components/sections/TeamSection';
 import { ContactSection } from '@/components/sections/ContactSection';
 import { Footer } from '@/components/sections/Footer';
 import { LensMusicSection } from '@/components/sections/LensMusicSection';
+import Scene3D from '@/components/3d/Scene3D';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="relative min-h-screen overflow-x-hidden">
+      <Scene3D />
       <Header />
-      <main>
+      <main className="relative z-10">
         <Hero />
-        <ServicesMarquee />
-        <IllustrationSection />
-        <ProcessSection />
-        <ServicesDetail />
-        <UmuhinziSection />
-        <LensMusicSection />
-        <NyibutsaSection />
-        <WarehouseSection />
-        <TeamSection />
-        <ContactSection />
+        <div className="bg-white">
+          <ServicesMarquee />
+          <IllustrationSection />
+          <ProcessSection />
+          <ServicesDetail />
+          <UmuhinziSection />
+          <LensMusicSection />
+          <NyibutsaSection />
+          <WarehouseSection />
+          <TeamSection />
+          <ContactSection />
+        </div>
       </main>
       <Footer />
     </div>

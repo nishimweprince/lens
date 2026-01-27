@@ -3,70 +3,83 @@
 import React from 'react';
 
 export const Footer: React.FC = () => {
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
-    <footer className="bg-white border-t border-gray-200 py-12">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
-          <div className="space-y-4">
-            <div className="text-xl font-bold text-black">Lens</div>
-            <p className="text-gray-600 text-sm">
-              © 2024 Lens Inc. Ltd. All rights reserved.
+    <footer className="bg-white border-t border-slate-100 py-16 px-6">
+      <div className="max-w-7xl mx-auto">
+        {/* Main Content */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+          {/* Brand */}
+          <div className="md:col-span-2 space-y-4">
+            <h3 className="font-display text-xl font-bold text-slate-900">Lens Inc. Ltd</h3>
+            <p className="text-slate-500 text-sm leading-relaxed max-w-md">
+              Revolutionizing bookkeeping for individuals and SMEs using innovative digital solutions.
             </p>
           </div>
-          
+
+          {/* Navigation */}
           <div className="space-y-4">
-            <h4 className="font-medium text-black">Navigation</h4>
-            <ul className="space-y-2">
-              <li><a href="#home" className="text-gray-600 hover:text-black transition-colors text-sm">Home</a></li>
-              <li><a href="#products" className="text-gray-600 hover:text-black transition-colors text-sm">Products</a></li>
-              <li><a href="#services" className="text-gray-600 hover:text-black transition-colors text-sm">Services</a></li>
-              <li><a href="#team" className="text-gray-600 hover:text-black transition-colors text-sm">Team</a></li>
-            </ul>
-          </div>
-          
-          <div className="space-y-4">
-            <h4 className="font-medium text-black">Social</h4>
-            <ul className="space-y-2">
-              <li><a href="#" className="text-gray-600 hover:text-black transition-colors text-sm">Instagram</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-black transition-colors text-sm">LinkedIn</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-black transition-colors text-sm">Twitter</a></li>
-            </ul>
-          </div>
-          
-          <div className="space-y-4">
-            <h4 className="font-medium text-black">Legal</h4>
-            <ul className="space-y-2">
+            <h4 className="text-sm font-medium text-slate-900 uppercase tracking-wider">Navigation</h4>
+            <ul className="space-y-3">
               <li>
-                <a href="#" className="text-gray-600 hover:text-black transition-colors text-sm">
-                  Terms and Conditions
+                <a href="#products" className="text-slate-500 hover:text-[#1F628E] transition-colors text-sm">
+                  Products
                 </a>
               </li>
               <li>
-                <a href="#" className="text-gray-600 hover:text-black transition-colors text-sm">
-                  Cookie Policy
+                <a href="#team" className="text-slate-500 hover:text-[#1F628E] transition-colors text-sm">
+                  Team
+                </a>
+              </li>
+              <li>
+                <a href="#contact" className="text-slate-500 hover:text-[#1F628E] transition-colors text-sm">
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          {/* Connect */}
+          <div className="space-y-4">
+            <h4 className="text-sm font-medium text-slate-900 uppercase tracking-wider">Connect</h4>
+            <ul className="space-y-3">
+              <li>
+                <a href="#" className="text-slate-500 hover:text-[#1F628E] transition-colors text-sm">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-slate-500 hover:text-[#1F628E] transition-colors text-sm">
+                  Twitter
+                </a>
+              </li>
+              <li>
+                <a href="#" className="text-slate-500 hover:text-[#1F628E] transition-colors text-sm">
+                  Instagram
                 </a>
               </li>
             </ul>
           </div>
         </div>
-        
-        <div className="mt-12 pt-8 border-t border-gray-200">
-          <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-            <div className="flex items-center space-x-6">
-              <div className="bg-lens-primary rounded-full px-4 py-2">
-                <span className="text-white text-sm font-medium font-futura">Home</span>
-              </div>
-              <a href="#products" className="text-gray-600 hover:text-black transition-colors text-sm">Products</a>
-              <a href="#services" className="text-gray-600 hover:text-black transition-colors text-sm">Services</a>
-              <a href="#team" className="text-gray-600 hover:text-black transition-colors text-sm">Team</a>
-            </div>
-            
-            <div className="flex items-center space-x-4">
-              <button className="w-10 h-10 bg-lens-primary rounded-full flex items-center justify-center text-white hover:bg-lens-primary-600 transition-colors">
-                ↑
-              </button>
-            </div>
-          </div>
+
+        {/* Bottom Bar */}
+        <div className="pt-8 border-t border-slate-100 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-xs text-slate-400">
+            &copy; {new Date().getFullYear()} Lens Inc. Ltd. All rights reserved.
+          </p>
+
+          <button
+            onClick={scrollToTop}
+            className="group flex items-center gap-2 text-xs font-medium text-slate-400 hover:text-[#1F628E] transition-colors uppercase tracking-wider"
+          >
+            Back to top
+            <svg className="w-4 h-4 group-hover:-translate-y-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 15.75l7.5-7.5 7.5 7.5" />
+            </svg>
+          </button>
         </div>
       </div>
     </footer>

@@ -17,20 +17,20 @@ export const Button: React.FC<ButtonProps> = ({
   className = '',
   type = 'button',
 }) => {
-  const baseClasses = 'font-futura font-medium rounded-full transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-offset-2';
-  
+  const baseClasses = 'font-body font-medium rounded-full transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-slate-900 cursor-pointer inline-flex items-center justify-center gap-2';
+
   const variantClasses = {
-    primary: 'bg-lens-primary text-white hover:bg-lens-primary-600 focus:ring-lens-primary',
-    secondary: 'bg-lens-secondary text-black hover:bg-gray-200 focus:ring-lens-secondary',
-    outline: 'border-2 border-lens-primary text-lens-primary hover:bg-lens-primary hover:text-white focus:ring-lens-primary',
+    primary: 'bg-[#1F628E] text-white hover:bg-[#164a6b] shadow-sm',
+    secondary: 'bg-slate-900 text-white hover:bg-slate-800 shadow-sm',
+    outline: 'border border-slate-200 text-slate-700 hover:border-slate-300 hover:bg-slate-50',
   };
-  
+
   const sizeClasses = {
-    sm: 'px-4 py-2 text-sm',
-    md: 'px-6 py-3 text-base',
-    lg: 'px-8 py-4 text-lg',
+    sm: 'px-4 py-2 text-[13px]',
+    md: 'px-6 py-3 text-sm',
+    lg: 'px-8 py-4 text-base',
   };
-  
+
   return (
     <button
       type={type}

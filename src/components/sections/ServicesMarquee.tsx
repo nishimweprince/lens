@@ -5,22 +5,26 @@ import { motion } from 'framer-motion';
 
 export const ServicesMarquee: React.FC = () => {
   const services = [
-    'BOOKKEEPING',
-    'AGRICULTURE',
-    'FINANCE',
-    'ANALYTICS',
-    'BOOKKEEPING',
-    'AGRICULTURE',
-    'FINANCE',
-    'ANALYTICS',
+    'Bookkeeping',
+    'Agriculture',
+    'Finance',
+    'Analytics',
+    'Warehousing',
+    'Tax Advisory',
+    'Bookkeeping',
+    'Agriculture',
+    'Finance',
+    'Analytics',
+    'Warehousing',
+    'Tax Advisory',
   ];
 
   return (
-    <section className="py-8 border-y border-gray-200 overflow-hidden bg-lens-primary-50">
+    <section className="py-6 border-y border-slate-100 overflow-hidden bg-slate-50">
       <motion.div
         animate={{ x: '-50%' }}
         transition={{
-          duration: 25,
+          duration: 40,
           repeat: Infinity,
           ease: 'linear',
         }}
@@ -28,14 +32,12 @@ export const ServicesMarquee: React.FC = () => {
       >
         {services.map((service, index) => (
           <div key={index} className="flex items-center">
-            <span className="text-lens-primary text-sm font-medium px-8">
+            <span className="text-slate-600 text-sm font-medium tracking-wide px-8">
               {service}
             </span>
-            {index < services.length - 1 && (
-              <span className="text-lens-primary-500 text-sm">
-                {index % 2 === 0 ? '•' : '→'}
-              </span>
-            )}
+            <span className="text-slate-300 text-lg">
+              /
+            </span>
           </div>
         ))}
       </motion.div>

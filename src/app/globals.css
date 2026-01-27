@@ -1,39 +1,87 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Futura:wght@300;400;500;700;900&display=swap');
 @import "tailwindcss";
 
+:root {
+  --color-primary: #1F628E;
+  --color-primary-dark: #164a6b;
+  --color-primary-light: #2a7db5;
+  --color-black: #0a0a0a;
+  --color-slate-900: #0f172a;
+  --color-slate-800: #1e293b;
+  --color-slate-700: #334155;
+  --color-slate-600: #475569;
+  --color-slate-500: #64748b;
+  --color-slate-400: #94a3b8;
+  --color-slate-300: #cbd5e1;
+  --color-slate-200: #e2e8f0;
+  --color-slate-100: #f1f5f9;
+  --color-slate-50: #f8fafc;
+  --color-white: #ffffff;
+}
 
-  @layer base {
+@layer base {
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    font-family: 'Libre Baskerville', serif !important;
-    background: #ffffff;
-    color: #1F628E;
+    font-family: 'Libre Baskerville', serif;
+    background: var(--color-white);
+    color: var(--color-slate-600);
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Libre Baskerville', serif !important;
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    line-height: 1.1;
+    color: var(--color-black);
   }
-  
-  .font-secondary {
-    font-family: 'Futura', serif;
+
+  .font-display {
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  .font-body {
+    font-family: 'Libre Baskerville', serif;
+  }
+
+  button,
+  a,
+  [role="button"] {
+    cursor: pointer;
+  }
+
+  ::selection {
+    background-color: var(--color-primary);
+    color: var(--color-white);
   }
 }
 
 @layer utilities {
   .animate-marquee {
-    animation: marquee 20s linear infinite;
+    animation: marquee 30s linear infinite;
   }
-  
+
   @keyframes marquee {
     0% {
       transform: translateX(0%);
     }
+
     100% {
       transform: translateX(-50%);
     }
+  }
+
+  .text-balance {
+    text-wrap: balance;
   }
 }
