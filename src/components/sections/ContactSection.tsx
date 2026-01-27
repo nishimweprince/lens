@@ -38,7 +38,7 @@ export const ContactSection: React.FC = () => {
             Get In Touch
           </span>
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl text-slate-900 leading-[1.05] mb-6">
-            Let's discuss your
+            Let&apos;s discuss your
             <br />
             <span className="text-[#1F628E]">financial needs</span>
           </h2>
